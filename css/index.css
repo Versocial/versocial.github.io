@@ -21,7 +21,7 @@ body {
   background: #fff;
   color: #4c4948;
   font-size: 14px;
-  font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, MicrMicrosoft YaHei;
   line-height: 2;
 }
 #body-wrap {
@@ -62,7 +62,7 @@ body {
   background-color: transparent;
 }
 #web_bg {
-  background: ;
+  background: url("/img/https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581354530873&di=89c97d7af0682ea5c7e60af8d8320499&imgtype=jpg&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D2201115816%2C2522802331%26fm%3D214%26gp%3D0.jpg");
   height: 100%;
   width: 100%;
   -webkit-background-size: cover;
@@ -2399,6 +2399,16 @@ blockquote footer cite:before {
   background-size: cover;
   position: relative;
 }
+#footer:before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
 #footer-wrap {
   padding: 2rem 1rem;
   color: #eee;
@@ -2425,7 +2435,7 @@ blockquote footer cite:before {
   margin-bottom: 1rem;
 }
 #nav.full_page {
-  height: 100vh;
+  height: 752px;
 }
 #nav .nav_bg {
   width: 100%;
